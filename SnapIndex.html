@@ -4,11 +4,22 @@
 <head>
 	<meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="SnapStyle.css">
+	<script type="text/javascript">
+	function goBack(){
+		history records: history.go(-1);
+		return false;
+	}
+	</script>
 	<title>My SnapCode</title>
 </head>
 
 <body>
+	<h1>ADD ME!</h1>
   <img src="snapcode.png">
+
+	<div id="rounded">
+		<h2 onclick="goBack">"Did you add me? Thanks! lets head back to the page"</h2>
+	</div>
 </body>
 
 </html>
